@@ -8,7 +8,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/otus_live_lesson_react_march2026">
       <Nav />
       <main className="main-content">
         <Routes>
